@@ -25,7 +25,7 @@ public class KdniaoTrackQueryAPI {
         }
     }
 
-    //电商ID
+    // 1电商ID
     private String EBusinessID="";
     //电商加密私钥，快递鸟提供，注意保管，不要泄漏
     private String AppKey="";
