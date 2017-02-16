@@ -29,7 +29,7 @@ public class KdniaoTrackQueryAPI {
     public static void main(String[] args) {
         KdniaoTrackQueryAPI api = new KdniaoTrackQueryAPI();
         try {
-            String result = api.getOrderTracesByJson("ANE", "210001633605");
+            String result = api.getOrderTracesByJson("SF", "952983407139");
             System.out.print(result);
 
         } catch (Exception e) {
@@ -38,9 +38,9 @@ public class KdniaoTrackQueryAPI {
     }
 
     //电商ID
-    private String EBusinessID="请到快递鸟官网申请http://www.kdniao.com/ServiceApply.aspx";
+    private String EBusinessID="1276253";
     //电商加密私钥，快递鸟提供，注意保管，不要泄漏
-    private String AppKey="请到快递鸟官网申请http://www.kdniao.com/ServiceApply.aspx";
+    private String AppKey="cc84fe77-6869-4d78-9409-86bb70172b93";
     //请求url
     private String ReqURL="http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx";
 
