@@ -26,9 +26,9 @@ public class KdniaoTrackQueryAPI {
     }
 
     //电商ID
-    private String EBusinessID="1276253";
+    private String EBusinessID="";
     //电商加密私钥，快递鸟提供，注意保管，不要泄漏
-    private String AppKey="cc84fe77-6869-4d78-9409-86bb70172b93";
+    private String AppKey="";
     //请求url
     private String ReqURL="http://api.kdniao.cc/Ebusiness/EbusinessOrderHandle.aspx";
 
